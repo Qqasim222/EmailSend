@@ -1,0 +1,36 @@
+.input {
+  padding: 1rem;
+    width: 22rem;
+    /* max-width: 30rem; */
+    height: 32rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 295px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    height: 50px;
+
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #10204d;
+  }
